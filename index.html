@@ -1,120 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>TPI115 - TEST DE PUBLICACIÓN EN GITHUB PAGES</title>
-  <style>
-    /* ====== ESTILOS GENERALES ====== */
-    body {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(to right, #e0f7fa, #ffffff);
-      color: #333;
-      text-align: center; /* Centrar todo */
-    }
-
-    header {
-      background: #00796b;
-      color: white;
-      padding: 40px 20px;
-      border-bottom: 5px solid #004d40;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.8rem;
-      letter-spacing: 2px;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-
-    main {
-      padding: 30px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    main p {
-      font-size: 1.3rem;
-      line-height: 1.8;
-      margin-bottom: 40px;
-      font-style: italic;
-      color: #004d40;
-      background: #e0f2f1;
-      padding: 15px;
-      border-radius: 12px;
-      box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
-      display: inline-block;
-    }
-
-    /* ====== GALERÍA ====== */
-    h2 {
-      margin-top: 40px;
-      font-size: 2rem;
-      color: #00796b;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
-
-    .gallery {
-      margin-top: 20px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
-
-    .gallery img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 15px;
-      box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .gallery img:hover {
-      transform: scale(1.05);
-      box-shadow: 0px 8px 20px rgba(0,0,0,0.5);
-    }
-
-    footer {
-      background: #004d40;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 40px;
-      font-size: 0.9rem;
-      letter-spacing: 1px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>La Selecta SV | Inicio</title>
+  <meta name="description" content="Noticias, resultados y análisis del fútbol mundial. Champions, LaLiga, Mundial y más.">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
   <header>
-    <h1>TPI115 - mq21004 - TEST DE PUBLICACIÓN EN GITHUB PAGES</h1>
+    <img src="img/bandera-el-salvador-FB.jpg" alt="Logo del sitio" class="logo">
+    <h1>La Selecta SV</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        
+        
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <p>
-      🌟 Bienvenido a mi primera publicación en <strong>GitHub Pages</strong>.  
-      <br>Este es un ejemplo práctico del curso <strong>TPI115</strong> donde pruebo diseño web, estilos e integración de imágenes.  
-      <br><em>Esta es una modificación importante del proyecto 🚀</em>
-    </p>
+    <h2>Bienvenido a Fútbol SV</h2>
+    <p>Encuentra noticias, resultados y análisis sobre la Selecta y el fútbol mundial.</p>
 
-    <h2>🌳 Galería de Parques Hermosos</h2>
-    <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Parque con lago">
-      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Sendero en el bosque">
-      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Parque con montañas">
-      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Parque junto al mar">
-      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Parque en otoño">
-      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Vista panorámica de parque">
-    </div>
+    <!-- Sección con 2 imágenes -->
+    <section>
+      <h3>📸 Informate con Nosotros</h3>
+      <div class="galeria">
+        <figure>
+          <img src="img/selecta.jpg" alt="Jugadores de la Selecta celebrando un gol">
+          <figcaption>Celebración de gol en la Selecta</figcaption>
+        </figure>
+        <figure>
+          <img src="img/bryan-tamacas-guatemala-el-salvador-7-sept-2023-foto-EFE.jpg" alt="Aficionados salvadoreños animando en el estadio">
+          <figcaption>El Salvador ante Guatemala - Bryan Tamacas</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h3>📰 Últimas noticias</h3>
+      <p><a href="noticias.html">Ver todas las noticias →</a></p>
+    </section>
   </main>
 
   <footer>
-    © 2025 - Proyecto TPI115 - GitHub Pages
+    <p>&copy; 2025 Fútbol Mundial - Todos los derechos reservados</p>
   </footer>
 </body>
 </html>
