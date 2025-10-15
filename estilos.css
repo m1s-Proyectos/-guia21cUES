@@ -1,0 +1,172 @@
+/* ===== Reset básico ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Galería de imágenes ===== */
+.galeria {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+.galeria figure {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.galeria figure:hover {
+  transform: scale(1.03);
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.galeria figcaption {
+  padding: 10px;
+  font-size: 0.95em;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+/* ===== Estructura general ===== */
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Encabezado ===== */
+header {
+  background: #004aad; /* Azul principal */
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Logo en el header */
+header img {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ===== Menú de navegación ===== */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: #0066cc; /* Azul más claro */
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+  background: #004aad; /* Azul oscuro al pasar el cursor */
+  border-radius: 5px;
+}
+
+/* ===== Contenido principal ===== */
+main {
+  flex: 1;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Títulos */
+h2 {
+  color: #004aad;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 40px;
+  color: #004aad;
+  font-size: 1.4em;
+}
+
+/* Párrafos */
+p {
+  font-size: 1.1em;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Enlaces dentro del contenido */
+main a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main a:hover {
+  color: #0056b3;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
+/* ===== Sección de La Selecta ===== */
+.seccion-selecta {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.seccion-selecta h2 {
+  color: #004aad;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.seccion-selecta p {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.imagen-posiciones img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
