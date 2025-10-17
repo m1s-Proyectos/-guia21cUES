@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Página principal -->
+  <url>
+    <loc>https://m1s-proyectos.github.io/-guia21cUES/</loc>
+    <lastmod>2025-10-17</lastmod>
+    <priority>1.0</priority>
+  </url>
+     <url>
+    <loc>https://m1s-proyectos.github.io/-guia21cUES/index.html</loc>
+    <lastmod>2025-10-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Noticias -->
+  <url>
+    <loc>https://m1s-proyectos.github.io/-guia21cUES/noticias.html</loc>
+    <lastmod>2025-10-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Si tienes más páginas, agrégalas aquí -->
+  <!--
+  <url>
+    <loc>https://m1s-proyectos.github.io/-guia21cUES/otra-pagina.html</loc>
+    <lastmod>2025-10-17</lastmod>
+    <priority>0.6</priority>
+  </url>
+  -->
+
+</urlset>
